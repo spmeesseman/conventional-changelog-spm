@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.1...v1.1.2) (2019-04-06)
+
+
+### Bug Fixes
+
+* cyclic install causing install to fail on ref packages [skip ci] ([bf09eb1](https://github.com/spmeesseman/conventional-changelog-spm/commit/bf09eb1))
+
 ## [1.1.1](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.0...v1.1.1) (2019-04-06)
 
 
