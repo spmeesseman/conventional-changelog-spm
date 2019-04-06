@@ -1,12 +1,19 @@
-# [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coveralls-image]][coveralls-url]
+# Conventional Changelog Angular-ish Preset (SPM Custom)
 
-> [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [angular](https://github.com/angular/angular) preset
+[![NPM version][npm-image]][npm-url] [![Semantic Release][sr-image]][sr-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-**Issues with the convention itself should be reported on the Angular issue tracker.**
 
-## Angular Convention
+## Angular (SPM Custom) Convention
 
-Angular's [commit message guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit).
+Angular's [commit message guidelines](https://github.com/spm/spm/blob/master/CONTRIBUTING.md#commit).
+
+This package inherits the angular [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [angular](https://github.com/angular/angular) preset, but places the following changes into the changelog (whereas the default only feat, perf, and fix commits are displayed):
+
+* build
+* docs
+* refactor
+
+The following documentation is a replica of the documentation from > [conventional-changelog](https://github.com/ajoslin/conventional-changelog)
 
 ### Examples
 
@@ -64,7 +71,7 @@ If the prefix is `feat`, `fix` or `perf`, it will appear in the changelog. Howev
 
 Other prefixes are up to your discretion. Suggested prefixes are `build`, `ci`, `docs` ,`style`, `refactor`, and `test` for non-changelog related tasks.
 
-Details regarding these types can be found in the official [Angular Contributing Guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type)
+Details regarding these types can be found in the official [Angular Contributing Guidelines](https://github.com/spm/spm/blob/master/CONTRIBUTING.md#type)
 
 ### Scope
 
@@ -93,11 +100,9 @@ reference GitHub issues that this commit **Closes**.
 
 A detailed explanation can be found in this [document][commit-message-format].
 
-[npm-image]: https://badge.fury.io/js/conventional-changelog-angular.svg
-[npm-url]: https://npmjs.org/package/conventional-changelog-angular
-[travis-image]: https://travis-ci.org/conventional-changelog/conventional-changelog-angular.svg?branch=master
-[travis-url]: https://travis-ci.org/conventional-changelog/conventional-changelog-angular
-[daviddm-image]: https://david-dm.org/conventional-changelog/conventional-changelog-angular.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/conventional-changelog/conventional-changelog-angular
-[coveralls-image]: https://coveralls.io/repos/conventional-changelog/conventional-changelog-angular/badge.svg
-[coveralls-url]: https://coveralls.io/r/conventional-changelog/conventional-changelog-angular
+[npm-image]: https://badge.fury.io/js/conventional-changelog-spm.svg
+[npm-url]: https://npmjs.org/package/conventional-changelog-spm
+[daviddm-image]: https://david-dm.org/spmeesseman/conventional-changelog-spm/dev-status.svg
+[daviddm-url]: https://david-dm.org/spmeesseman/conventional-changelog-spm?type=dev
+[sr-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[sr-url]: https://github.com/semantic-release/semantic-release
