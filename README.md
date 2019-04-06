@@ -1,5 +1,7 @@
 # Conventional Changelog Angular-ish Preset (SPM Custom)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/spmeesseman/conventional-changelog-spm.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url] [![Semantic Release][sr-image]][sr-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 
