@@ -1,3 +1,15 @@
+## [1.1.3](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.2...v1.1.3) (2019-04-06)
+
+
+### Bug Fixes
+
+* custom param not working, error on build or docs subject ([e89ea6f](https://github.com/spmeesseman/conventional-changelog-spm/commit/e89ea6f))
+
+
+### Build System
+
+* **npm:** update past 1.1.1 changelog module ([5583aaa](https://github.com/spmeesseman/conventional-changelog-spm/commit/5583aaa))
+
 ## [1.1.2](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.1...v1.1.2) (2019-04-06)
 
 
