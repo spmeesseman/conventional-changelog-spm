@@ -33,11 +33,6 @@ function getWriterOpts () {
         discard = false
       })
 
-      if (commit.type === `build` && commit.subjectKeywords.indexOf('build') !== -1)
-      {
-        discard = false
-      }
-
       if (commit.type === `feat`) {
         commit.type = `Features`
       } else if (commit.type === `fix`) {
@@ -47,20 +42,20 @@ function getWriterOpts () {
       } else if (commit.type === `revert`) {
         commit.type = `Reverts`
       } else if (commit.type === `docs`) {
-        if (commit.subjectKeywords.includes('docs') !== -1)
+        //if (commit.subjectKeywords.includes('docs') !== -1)
           commit.type = `Documentation`
-        else
-          return;
+        //else
+        //  return;
       } else if (commit.type === `refactor`) {
-        if (commit.subjectKeywords.includes('refactor') !== -1)
+        //if (commit.subjectKeywords.includes('refactor') !== -1)
           commit.type = `Code Refactoring`
-        else
-          return;
+        //else
+        //  return;
       } else if (commit.type === `build`) {
-        if (commit.subjectKeywords.includes('build') !== -1)
+        //if (commit.subjectKeywords.includes('build') !== -1)
           commit.type = `Build System`
-          else
-            return;
+        //  else
+        //    return;
       } else if (discard) {
         return
       } else if (commit.type === `style`) {
