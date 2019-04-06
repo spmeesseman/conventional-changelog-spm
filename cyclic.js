@@ -11,6 +11,7 @@
 		cwd: cwd,
 		stdio: 'inherit' /* stdio doesn't exist below node <0.8 but oh well */
 	}
+	// only run in project dir
 	if (existsSync('.git') === true && existsSync(modulePath) === false) {
 		require('child_process').exec(command, options)
 	}
