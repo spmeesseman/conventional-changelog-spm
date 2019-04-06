@@ -1,3 +1,17 @@
+## [1.1.1](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.0...v1.1.1) (2019-04-06)
+
+
+### Bug Fixes
+
+* cyclic install running in non-project breaks install ([f57b6f4](https://github.com/spmeesseman/conventional-changelog-spm/commit/f57b6f4))
+* writer parse fails at indexof [skip ci] ([a8c96f9](https://github.com/spmeesseman/conventional-changelog-spm/commit/a8c96f9))
+
+
+### Build System
+
+* only run cyclic script in project ([70e2168](https://github.com/spmeesseman/conventional-changelog-spm/commit/70e2168))
+* try again ([061d537](https://github.com/spmeesseman/conventional-changelog-spm/commit/061d537))
+
 # [1.1.0](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.0.1...v1.1.0) (2019-04-06)
 
 
