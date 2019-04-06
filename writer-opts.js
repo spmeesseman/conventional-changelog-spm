@@ -47,12 +47,12 @@ function getWriterOpts () {
         commit.type = `Styles`
       } else if (commit.type === `refactor`) {
         commit.type = `Code Refactoring`
+      } else if (commit.type === `build`) {
+        commit.type = `Build System`
       } else if (discard) {
         return
       } else if (commit.type === `test`) {
         commit.type = `Tests`
-      } else if (commit.type === `build`) {
-        commit.type = `Build System`
       } else if (commit.type === `ci`) {
         commit.type = `Continuous Integration`
       }
