@@ -47,17 +47,17 @@ function getWriterOpts () {
       } else if (commit.type === `revert`) {
         commit.type = `Reverts`
       } else if (commit.type === `docs`) {
-        if (commit.subjectKeywords.indexOf('docs') !== -1)
+        if (commit.subjectKeywords.includes('docs') !== -1)
           commit.type = `Documentation`
         else
           return;
       } else if (commit.type === `refactor`) {
-        if (commit.subjectKeywords.indexOf('refactor') !== -1)
+        if (commit.subjectKeywords.includes('refactor') !== -1)
           commit.type = `Code Refactoring`
         else
           return;
       } else if (commit.type === `build`) {
-        if (commit.subjectKeywords.indexOf('build') !== -1)
+        if (commit.subjectKeywords.includes('build') !== -1)
           commit.type = `Build System`
           else
             return;
