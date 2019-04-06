@@ -1,9 +1,7 @@
 # Conventional Changelog Angular-ish Preset (SPM Custom)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/spmeesseman/conventional-changelog-spm.svg)](https://greenkeeper.io/)
 
-[![NPM version][npm-image]][npm-url] [![Semantic Release][sr-image]][sr-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
+[![NPM version](https://badge.fury.io/js/conventional-changelog-spm.svg)](https://npmjs.org/package/conventional-changelog-spm) [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Greenkeeper badge](https://badges.greenkeeper.io/spmeesseman/conventional-changelog-spm.svg)](https://greenkeeper.io/) [![Dependency Status](https://david-dm.org/spmeesseman/conventional-changelog-spm/dev-status.svg)](https://david-dm.org/spmeesseman/conventional-changelog-spm?type=dev)
 
 ## Angular (SPM Custom) Convention
 
@@ -102,9 +100,3 @@ reference GitHub issues that this commit **Closes**.
 
 A detailed explanation can be found in this [document][commit-message-format].
 
-[npm-image]: https://badge.fury.io/js/conventional-changelog-spm.svg
-[npm-url]: https://npmjs.org/package/conventional-changelog-spm
-[daviddm-image]: https://david-dm.org/spmeesseman/conventional-changelog-spm/dev-status.svg
-[daviddm-url]: https://david-dm.org/spmeesseman/conventional-changelog-spm?type=dev
-[sr-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[sr-url]: https://github.com/semantic-release/semantic-release
