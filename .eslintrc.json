@@ -6,11 +6,7 @@
     },
     
     "globals": {
-        "Ext": "writable",
-        "GEMS": "writable",
-        "AppUtils": "readonly",
-        "Utils": "readonly",
-        "ToolkitUtils": "readonly",
+        "__dirname": "readonly",
         "SharedArrayBuffer": "readonly",
         "ArrayBuffer": "writable",
         "DataView": "writable"
@@ -94,7 +90,7 @@
         "vars-on-top": 0,
         "wrap-iife": [ 2, "outside" ],
         "yoda": 2,
-        "strict": [ 2, "never" ],
+        "strict": [ 0, "never" ],
         "init-declarations": [ 0, "always" ],
         "no-catch-shadow": 1,
         "no-delete-var": 2,
@@ -122,7 +118,7 @@
         "no-sync": 0,
 
         "arrow-body-style": [ 2, "always" ],
-        "arrow-parens": [ 2, "always" ],
+        "arrow-parens": [ 0, "always" ],
         "arrow-spacing": [ 2, { "before": true, "after": true }],
         "constructor-super": 2,
         "generator-star-spacing": [ 2, "before" ],
@@ -152,7 +148,7 @@
         "id-length": [ 0, { "min": 2, "max": 32 } ],
         "indent": [ 0, 4 ],
         "jsx-quotes": [ 1, "prefer-double" ],
-        "linebreak-style": [ 1, "windows" ],
+        "linebreak-style": [ 1, "unix" ],
         "lines-around-comment": [ 0, { "beforeBlockComment": true } ],
         "max-depth": [ 1, 8 ],
         "max-len": [ 1, 148 ],
