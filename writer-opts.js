@@ -16,8 +16,13 @@ function getWriterOpts() {
         discard = false;
       });
 
+      //
+      // TODO - Somehow need to figure out how to pass in options
+      //
       if (commit.type === `feat`) {
         commit.type = `Features`;
+      } if (commit.type === `featmin`) {
+        commit.type = `Minor Features`;
       } else if (commit.type === `fix`) {
         commit.type = `Bug Fixes`;
       } else if (commit.type === `perf`) {
