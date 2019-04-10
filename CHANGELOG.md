@@ -1,3 +1,20 @@
+## [1.1.4](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.3...v1.1.4) (2019-04-10)
+
+
+### Build System
+
+* trigger release with 1.1.2, 1.1.3 throws error ([3f5b30f](https://github.com/spmeesseman/conventional-changelog-spm/commit/3f5b30f))
+
+
+### Code Refactoring
+
+* post minor feature addition cleanup ([8d2825f](https://github.com/spmeesseman/conventional-changelog-spm/commit/8d2825f))
+
+
+### Minor Features
+
+* add subject for minor fatures that trigger patch and not minor version change. ([4a05e3c](https://github.com/spmeesseman/conventional-changelog-spm/commit/4a05e3c))
+
 ## [1.1.3](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.2...v1.1.3) (2019-04-06)
 
 
