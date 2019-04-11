@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.4...v1.2.0) (2019-04-11)
+
+
+### Build System
+
+* **conventional-changelog-spm:** update to 1.1.4 dev dependency of itself ([96d59bd](https://github.com/spmeesseman/conventional-changelog-spm/commit/96d59bd))
+
+
+### Features
+
+* trigger release on 1st version ([21f4e55](https://github.com/spmeesseman/conventional-changelog-spm/commit/21f4e55))
+
 ## [1.1.4](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.3...v1.1.4) (2019-04-10)
 
 
