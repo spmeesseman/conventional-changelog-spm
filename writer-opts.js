@@ -26,6 +26,10 @@ function getWriterOpts()
             {
                 commit.type = `Features`;
             }
+            else if (commit.type === `initial`)
+            {
+                commit.type = `Initial Build`;
+            }
             else if (commit.type === `featmin`)
             {
                 commit.type = `Minor Features`;
