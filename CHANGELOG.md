@@ -1,3 +1,16 @@
+## [1.2.1](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.2.0...v1.2.1) (2019-05-01)
+
+
+### Code Refactoring
+
+* scope package ([3e07fe5](https://github.com/spmeesseman/conventional-changelog-spm/commit/3e07fe5))
+
+
+### Documentation
+
+* **readme:** update build by me section ([96c430a](https://github.com/spmeesseman/conventional-changelog-spm/commit/96c430a))
+* **readme:** update builds list [skip ci] ([e4eb216](https://github.com/spmeesseman/conventional-changelog-spm/commit/e4eb216))
+
 # [1.2.0](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.1.4...v1.2.0) (2019-04-11)
 
 
