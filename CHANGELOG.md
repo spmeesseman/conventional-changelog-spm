@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.2.1...v1.2.2) (2019-05-02)
+
+
+### Code Refactoring
+
+* take package out of scope, will not work with semantic-release otherwise ([c9b7c1e](https://github.com/spmeesseman/conventional-changelog-spm/commit/c9b7c1e))
+
 ## [1.2.1](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.2.0...v1.2.1) (2019-05-01)
 
 
