@@ -3,7 +3,7 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "spm",
+        "preset": "angular",
         "releaseRules": [
           {
             "type": "refactor",
@@ -19,7 +19,7 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "spm",
+        "preset": "angular",
         "parserOpts": {
           "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
         },
