@@ -1,11 +1,13 @@
 {
-  "version": "1.2.3",
   "name": "conventional-changelog-spm",
+  "version": "1.2.3",
   "description": "conventional-changelog spm custom preset",
   "homepage": "https://github.com/spmeesseman/conventional-changelog-spm/tree/master/packages/conventional-changelog-spm#readme",
   "license": "MIT",
   "main": "index.js",
-  "author": "spmeesseman",
+	"author": {
+		"name": "Scott Meesseman"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spmeesseman/conventional-changelog-spm.git"
