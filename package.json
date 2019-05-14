@@ -5,9 +5,7 @@
   "homepage": "https://github.com/spmeesseman/conventional-changelog-spm/tree/master/packages/conventional-changelog-spm#readme",
   "license": "MIT",
   "main": "index.js",
-  "author": {
-    "name": "Scott Meesseman credit to Steve Mao"
-  },
+  "author": "spmeesseman",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spmeesseman/conventional-changelog-spm.git"
