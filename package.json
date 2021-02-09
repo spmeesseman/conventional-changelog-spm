@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-spm",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "conventional-changelog spm custom preset",
   "homepage": "https://github.com/spmeesseman/conventional-changelog-spm/tree/master/packages/conventional-changelog-spm#readme",
   "license": "MIT",

@@ -1,3 +1,16 @@
+## [1.2.4](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.2.3...v1.2.4) (2021-02-09)
+
+
+### Build System
+
+* **npm:** fix invalid attribute publisher->author [skip ci] ([30b3edd](https://github.com/spmeesseman/conventional-changelog-spm/commit/30b3edd))
+* **npm:** package.json cleanup [skip ci] ([8968949](https://github.com/spmeesseman/conventional-changelog-spm/commit/8968949))
+
+
+### Code Refactoring
+
+* add 'visual' as a commit tag for visual enhancements ([1ae2c58](https://github.com/spmeesseman/conventional-changelog-spm/commit/1ae2c58))
+
 ## [1.2.3](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.2.2...v1.2.3) (2019-05-03)
 
 ## [1.2.2](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.2.1...v1.2.2) (2019-05-02)
