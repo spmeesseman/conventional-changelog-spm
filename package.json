@@ -5,19 +5,16 @@
   "homepage": "https://github.com/spmeesseman/conventional-changelog-spm/tree/master/packages/conventional-changelog-spm#readme",
   "license": "MIT",
   "main": "index.js",
-	"author": {
-		"name": "Scott Meesseman"
-	},
+  "author": {
+    "name": "Scott Meesseman"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spmeesseman/conventional-changelog-spm.git"
   },
   "scripts": {
-    "test-windows": "mocha --timeout 30000",
-    "semantic-release": "semantic-release",
-    "semantic-release-no-ci": "semantic-release --no-ci",
-    "semantic-release-dry": "semantic-release --dry-run",
-    "commit": "npx git-cz"
+    "semantic_release-no_ci": "semantic-release --no-ci",
+    "semantic_release-dry": "semantic-release --dry-run"
   },
   "bugs": {
     "url": "https://github.com/spmeesseman/conventional-changelog-spm/issues"
@@ -26,13 +23,13 @@
     "access": "public"
   },
   "dependencies": {
-    "compare-func": "^1.3.1",
+    "compare-func": "^1.3.4",
     "q": "^1.5.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.2",
-    "@semantic-release/git": "^7.0.8",
-    "semantic-release": "^15.13.3"
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18",
+    "semantic-release": "^15.14.0"
   },
   "engines": {
     "node": ">=6.9.0"
@@ -47,7 +44,9 @@
   ],
   "keywords": [
     "conventional-changelog",
-    "angular",
-    "preset"
+    "semantic-release",
+    "preset",
+    "changelog",
+    "angular"
   ]
 }

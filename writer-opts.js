@@ -34,6 +34,10 @@ function getWriterOpts()
             {
                 commit.type = `Minor Features`;
             }
+            else if (commit.type === `visual`)
+            {
+                commit.type = `Visual Enhancements`;
+            }
             else if (commit.type === `fix`)
             {
                 commit.type = `Bug Fixes`;
