@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.2.4...v1.2.5) (2021-02-10)
+
+
+### Code Refactoring
+
+* add featmmaj tag for major version bump ([8d44182](https://github.com/spmeesseman/conventional-changelog-spm/commit/8d44182))
+
 ## [1.2.4](https://github.com/spmeesseman/conventional-changelog-spm/compare/v1.2.3...v1.2.4) (2021-02-09)
 
 
