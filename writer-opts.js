@@ -22,7 +22,7 @@ function getWriterOpts()
             //
             // TODO - Somehow need to figure out how to pass in options
             //
-            if (commit.type === `feat`)
+            if (commit.type === `feat` || commit.type === `featmaj`)
             {
                 commit.type = `Features`;
             }
